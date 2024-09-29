@@ -1,0 +1,43 @@
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap');
+
+.navbar {
+    display: flex;
+    flex-direction: row;
+    align-items: baseline;
+    justify-content: baseline;
+    margin: 45px 60px;
+  }
+
+.title {
+    font-size: 48px;
+    color: #222222;
+    font-family: IBM Plex Sans;
+    font-weight: 700;
+    letter-spacing: -1px;
+    padding-right: 20px;
+}
+
+button {
+    margin: 0px 16px;
+    border: none;
+    background-color: transparent;
+    padding: 0px;
+    font-size: 19px;
+    color: #BDBDBD;
+    font-family: IBM Plex Sans;
+    font-weight: 400;
+    letter-spacing: -0.3px;
+}
+
+button:hover {
+    color: #000;
+}
+
+button:active {
+    color: #646464;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+  }

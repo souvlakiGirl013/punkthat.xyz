@@ -1,0 +1,47 @@
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&family=IBM+Plex+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap');
+
+.Container {
+    display: inline-block;
+    max-width: 100%;
+    position: absolute;
+    border-color: #E4E4E4;
+    border-radius: 4px;
+    border-width: 1px;
+    height: fit-content;
+    width: fit-content;
+    background-color: #fff;
+}
+
+.ContainerHeader {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: stretch;
+
+    font-family: IBM Plex Mono;
+    font-size: 16px;
+    font-weight: 400;
+
+    background-color: #EBEBED;
+    height: 38px;
+    width: 100%;
+    border-top-left-radius: 4px;
+    border-top-right-radius: 4px;
+    box-sizing: border-box;
+
+    padding: 8px 16px;
+}
+
+.ContainerHeaderTitle {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    color: #222222;
+    height: 100%;
+    width: 100%;
+}
+
+.ContainerHeaderCategory {
+    color: #A5A5A6;
+}
